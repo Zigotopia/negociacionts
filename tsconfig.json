@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js", //diretório para onde serão convertidos os arquivos typescript
+        "target": "ES6" // versão do javasctipt a ser compilada. Nessse caso é o ecmascript 6
+    
+    },
+    "include": [
+        "app/**/*" // os primeiros ** quer dizer toda subpasta e segundo * quer dizer todo arquivo
+
+    ] // include faz referencias as pastas onde estarão os arquivos ts que serão compilados
+}
+
+
+
+
+
+// esta pasta é ónde será feito as configurações do compilador
